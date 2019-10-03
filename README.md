@@ -14,8 +14,9 @@
 3. hexo原生图片嵌入链接并无法在本地显示，但deploy到远端网页后即可显示。
 
 ## 使用方法
-1. 转移到您的hexo/source/文件夹下。
+1. 将`hexo-migrator.py`转移到您的hexo/source/文件夹下（当然如有基础python知识也可以直接修改文件中的root位置）。
 2. 备份您的文件。
 3. `python3 hexo-migrator.py`
 4. 耐心等待完成即可，具体时间由本地网速和文件数目等决定。
 5. 完成后重新`hexo generate --deploy`部署到远端。
+6. 删除本项目文件。
